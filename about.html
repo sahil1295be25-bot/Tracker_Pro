@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Tracker Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1.5rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .profile-icon {
+            font-size: 5rem;
+            color: var(--accent-primary);
+            background: rgba(59, 130, 246, 0.1);
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--accent-primary);
+            margin-bottom: 1rem;
+        }
+        .profile-details h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #60a5fa, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .profile-details p {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+        .profile-summary {
+            margin-top: 1rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-secondary);
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+        .highlight {
+            color: var(--accent-secondary);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">Tracker Pro</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </nav>
+    <header>
+        <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Back to Dashboard</a>
+        <h1>About Me</h1>
+    </header>
+
+    <main class="container">
+        <div class="glass-card profile-container">
+            <div class="profile-icon">
+                <i class="fa-solid fa-user-graduate"></i>
+            </div>
+            
+            <div class="profile-details">
+                <h2>Sahil Chaudhary</h2>
+                <p>Roll No: <span class="highlight">2511981295</span></p>
+                <p><i class="fa-solid fa-building-columns"></i> Chitkara University</p>
+            </div>
+
+            <div class="profile-summary">
+                <p>Hello! I am an enthusiastic and dedicated student at Chitkara University with a strong passion for software development, web technologies, and problem-solving. I thrive on learning new skills and applying them to build practical, user-friendly applications that can make daily life more efficient.</p>
+                <p style="margin-top: 1rem;">This Tracker Pro application was built as a showcase of clean, responsive web design using modern HTML, CSS, and JavaScript. My goal is to continually improve my coding abilities and contribute to exciting, innovative tech projects in the future.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
